@@ -1,0 +1,119 @@
+
+body
+{
+	background:url(pic1.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.j13
+{
+	border:1px solid ;
+	margin:-500px 0px 0px 770px;
+	width:350px;
+	height:440px;
+}
+.j1
+{
+	background:rgba(0,0,0,.4);
+	border:1px solid ;
+	width:65%;
+	height:600px;
+	margin:50px 0px 0px 50px;
+	color:white;
+	font-size:18px;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+}
+.j2
+{
+	margin:0px 0px 0px 350px;
+	width:400;
+	height:330;
+	border:1px solid ;
+}
+.j3
+{
+	width:400px;
+	height:200px;
+	border:1px solid;
+	margin: -2px;
+	
+}
+.p1
+{
+	margin:100px 0px 0px 150px;
+}
+h2
+{
+	float: left;
+	margin-left: 15px;
+}
+.h4
+{
+	float: left;
+	margin-left: 15px;
+}
+#register
+{
+	margin-left:50px;
+	
+}
+label
+{
+	color:white;
+	font-family:sans-serif;
+	font-size:18px;
+	font-style:italic;
+	color:white;
+	margin-left: 15px;
+		
+}
+#name
+{
+	width:150px;
+	border-radius:3px;
+	outline:none;
+	padding:8px;
+}
+#phone
+{
+	width:165px;
+	border-radius:3px;
+	outline:none;
+	padding:7px;
+}
+#num
+{
+	margin:0px 0px 0px 150px;
+	width:200px;
+	border-radius:3px;
+	outline:none;
+	padding:7px;
+}
+#h3
+{
+	margin:0px 0px 0px 150px;
+	width:200px;
+	padding:10px;
+	font-size:16px;
+	font-family:sans-serif;
+	font-style:italic;
+	box-sizing:border-box;
+	border:none;
+	border-radius:20px;
+	outline:0px;
+	opacity:0.2px;
+	float: right;
+	margin-right: 25px;
+}
+#h3:hover
+{
+	cursor:pointer;
+	background: #ffc107;
+	color: #000;
+	
+}
+#male
+{
+	color:white;
+	padding:40px;
+}

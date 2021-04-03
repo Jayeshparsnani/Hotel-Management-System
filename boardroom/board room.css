@@ -1,0 +1,67 @@
+.title
+  {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .img
+  {  
+    width: 90%; 
+    height: 450px;
+    margin-left: 5%; 
+  }
+  .text1
+  {
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+    color: black;
+  }
+  .conferencebook
+  {
+    float: center;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    margin-top:50px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 46%;
+  }
+.conferencebook:hover
+  {
+    background-color: white;
+    color: black;
+  }
+
+.table
+  {
+    margin-left: 2%; 
+    margin-right: 2%;
+  }
+.img1
+  {
+    width: 150%; 
+    height: 400px; 
+    display: inline-block;
+    border: white 2px solid;
+  }
+.img2
+  {
+    width: 80%; 
+    height: 400px; 
+    display: inline-block; 
+    margin-left: -3px;
+    float: left;
+  }
+.img3
+  {
+    width:80%; 
+    height: 350px; 
+    display: inline-block; 
+    margin-left: -3px; 
+    margin-top: -3px;
+    float: right;
+  }

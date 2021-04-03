@@ -1,0 +1,173 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	
+	background-size:cover;
+}
+.navbar
+{
+	margin-top:-1px;
+	margin-right: 0px;
+	width:100%;
+	height:75px;
+	border-bottom:solid 1px;
+	box-shadow: 0px 6px 3px #aaaaaa;
+	overflow: hidden;
+}
+
+.left-navbar{
+	float:left;
+	width:43%;
+	background-color: sandybrown;
+}
+.dropdown {
+
+  float:left;
+  overflow: hidden;
+  width:43%;
+  padding:25px 40px;
+  height: 75px;
+  text-align: center;
+}
+
+.dropdown a {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0px 0px;
+  background-color: sandybrown;
+  color: black;
+  font-family: inherit;
+  margin: 0;
+  height: 75px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.center-navbar{
+	width:14%;
+	position: relative;
+	display:inline-block;
+	background-color:sandybrown;
+	text-align: center;
+	font-size: 20px;  
+  	border: none;
+  	outline: none;
+  	padding: 25px 20px;
+  	margin: 0;
+  	height: 75px;
+
+}
+ 
+ .right-navbar{
+ 	display:inline-block;
+	float: right;
+	width:57%;
+	height:75px;
+	padding-top: 0px;
+	text-align: center;
+	
+	background:sandybrown;
+	
+	
+} 
+.right-navbar-right{
+	display:inline-block;
+	float: right;
+	width:100%;
+	height:25px;
+	padding-top: 30px;
+	text-align: center;
+	
+	background:sandybrown;
+	
+}
+
+
+
+ .signin a{
+ 	display: block;
+	float: left;
+  color: black	;
+  width: 25%;
+  height:75px;
+  padding: -140px 200px;
+  text-decoration: none;
+  text-align: center;
+}
+.book a{
+float: right;
+  color: black	;
+  width: 25%;
+  height: 55px;
+  padding: -1px 350px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  
+}
+.bigbox
+{
+	background:url(pic1.jpg);
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+.box
+{
+	position:absolute;
+	top:55%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:1300px;
+	height:500px;
+	padding:80px;
+	background:rgba(0,0,0,.6);
+	box-sizing:border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius:10px;
+	text-align: center;
+}
+
+
+.box h1
+{
+	margin:0 0 40px;
+	padding-top:100px ;
+	color:black;
+	text-align: center;
+	
+}
+#h3
+{
+	width:200px;
+	padding:7px;
+	font-size:16px;
+	font-family:sans-serif;
+	font-style:italic;
+	box-sizing:border-box;
+	border:none;
+	border-radius:20px;
+	outline:0px;
+	opacity:0.2px;
+}
+#h3:hover
+{
+	cursor:pointer;
+	background: #ffc107;
+	color: #000;
+	
+}
+#name
+{
+	width:300px;
+	border-radius:3px;
+	outline:none;
+	padding:8px;
+}

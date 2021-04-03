@@ -1,0 +1,40 @@
+body
+	{
+		padding: 0px;
+		margin: 0px;
+	}
+footer
+	{
+		background-color: black;
+		width: 100%;
+		height: 100px;
+	}
+.about_us
+	{
+		text-decoration: none;
+		color: white;
+		padding-top: 2.5%;
+		padding-left: 2.5%;
+	}
+.des
+	{
+		padding-top: 0.8%;
+		text-align: center;
+		color: white;
+	}
+.contact
+	{
+		text-align: center;
+		margin-right: 4%;
+	}
+.social
+	{
+		float: right;
+		padding-right: 2%;
+	}
+.map
+	{
+		float: left;
+		padding-left: 2%;
+	}
+

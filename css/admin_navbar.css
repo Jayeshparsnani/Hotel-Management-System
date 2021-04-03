@@ -1,0 +1,172 @@
+body{
+
+  margin:0;
+  padding:0;
+  
+}
+
+.navbar
+{
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  border-bottom:solid 1px;
+  
+
+}
+.properties
+{
+  float: left;
+  background-color: white;
+  width: 30%;
+  height: 75px;
+  font-size: 22px;
+  
+  text-align: left;
+}
+.name
+{
+  float: left;
+  background-color: white;
+  width: 40%;
+  height: 75px;
+  font-size: 22px;
+  
+  text-align: center;
+}
+.status
+{
+  float: left;
+  background-color: white;
+  width: 10%;
+  height: 75px;
+  font-size: 20px;
+  
+  text-align: center;
+  cursor: pointer;
+}
+.users
+{
+  float: left;
+  background-color: white;
+  width: 10%;
+  height: 75px;
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+  cursor: pointer;
+}
+.admin
+{
+  float: left;
+  background-color: white;
+  width: 10%;
+  height: 75px;
+  font-size: 20px;
+  
+  text-align: center;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  height: 75px;
+  width: 250px;
+  font-size: 20px;
+  font-family: cursive;
+  border: none;
+  cursor: pointer;
+  padding-left: 15px;
+  text-align: left;
+}
+.dropbtn1 {
+  background-color: white;
+  color: black;
+  height: 75px;
+  width: auto;
+  font-size: 20px;
+  font-family: cursive;
+  border: none;
+  cursor: pointer;
+  padding-left:auto;
+  text-align: left;
+ 
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content  a:hover {background-color: black ; color: white}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.dropdown-content1  a:hover {background-color: black ; color: white}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown:hover .dropbtn1 {
+  background-color: white;
+}
+
+.navbar2
+{
+  width: 100%;
+  height: 50px;
+  border-top:solid 1px;
+  background-color: white;
+  border-bottom:solid 1px;
+}
+.addoffer
+{
+  float: right;
+  background-color: white;
+  height: 50px;
+  width: 10%;
+  text-align: center;
+}
+.addroom
+{
+  float: right;
+  background-color: white;
+  height: 50px;
+  width: 10%;
+  text-align: right;
+}
